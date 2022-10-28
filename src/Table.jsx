@@ -5,7 +5,7 @@ const Table = ({ data }) => {
                 <tr>
                     <th>Name</th>
                     <th>City</th>
-                    <<th>Min Price</th>
+                    <th>Min Price</th>
                 </tr>
                 {data.map((item) => (
                     <tr key={item.id}>
@@ -20,3 +20,5 @@ const Table = ({ data }) => {
         </table>
     );
 };
+
+export default Table;
