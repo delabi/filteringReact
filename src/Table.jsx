@@ -20,3 +20,6 @@ const Table = ({ data }) => {
         </table>
     );
 };
+
+
+export default Table;
